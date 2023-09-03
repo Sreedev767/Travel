@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sample</title>
+
+  <!-- css -------------------------------------------------------------------------------------------------->
+  <link rel="stylesheet" href="./index.css" type="text/css">
+  <link rel="stylesheet" href="./Navbar.css" type="text/css">
+  <link rel="stylesheet" href="./Booking_bar.css" type="text/css">
+
+  <!-- Fontawesome ------------------------------------------------------------------------------------------>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap -------------------------------------------------------------------------------------------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+  <!-- Google fonts -------------------------------------------------------------------------------------------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Bebas+Neue&family=Borel&family=Bungee+Spice&family=Encode+Sans+Semi+Expanded:wght@200&family=Handjet:wght@300&family=Lugrasimo&family=Poppins:wght@200&family=Teko&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="section1">
+    <div class="section1a">
+      <nav class="navbar navbar-expand-lg navbar-fixed">
+        <div class="container">
+
+          <!-- navbar brand ----------------------------------------------------------------------------------------------------->
+          <a class="navbar-brand" href="#">sample</a>
+
+          <!-- navbar slider ----------------------------------------------------------------------------------------------------->
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- slider ----------------------------------------------------------------------------------------------------->
+          <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><img src="./images/arrow.png" alt=""></h5>
+              <button type="button" class="btn-close btn-close-black " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <!-- links ----------------------------------------------------------------------------------------------------->
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+              </ul>
+
+              <!-- login / sign-in ----------------------------------------------------------------------------------------------------->
+              <form class="d-flex mx-auto" role="search">
+
+                <!-- Button trigger modal ----------------------------------------------------------------------------------------------------->
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Login / Register
+                </button>
+
+                <!-- Modal ----------------------------------------------------------------------------------------------------->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Go on with your Account !</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                          </div>
+                          <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Keep me logged in.</label>
+                          </div>
+                          <button type="submit" class="btn btn-success">Login</button>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <a href="./Register.html" class="btn btn-danger" role="button" aria-disabled="true">Register</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- booking bar ------------------------------------------------------------------------------------------->
+      <div class="booking-bar container-fluid">
+        
+        <!-- booking bar - menu ---------------------------------------------------------------------------------->
+        <div class="menu container-fluid">
+          <div class="row bar1  mx-auto">
+            <div class="col-lg-3 col-md-6 mt-4">
+              <i class="fa-solid fa-plane-departure row fa-2xl" style="color: #000000;"></i>
+              <span class="row mt-3">Flights</span>
+            </div>
+            <div class="col-lg-3 col-md-6 ">
+              <i class="fa-solid fa-plane-up row" style="color: #000000;"></i>
+              <span class="row">Flights</span>
+            </div>
+            <div class="col-lg-3 col-md-6 ">
+              <i class="fa-solid fa-plane-up row" style="color: #000000;"></i>
+              <span class="row">Flights</span>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <i class="fa-solid fa-plane-up row" style="color: #000000;"></i>
+              <span class="row">Flights</span>
+            </div>
+          </div>
+        </div>
+       
+        <!-- booking bar - book ---------------------------------------------------------------------------------->
+        <div class="book container-fluid">
+          <div class="row bar2 mx-auto">
+          </div>
+        </div> 
+
+        <!-- booking bar - search -------------------------------------------------------------------------------->
+        <div class="search container-fluid">
+          <div class="row bar3 mx-auto">
+            <a class="btn btn-success mx-auto pb-5 mt-2" href="#" role="button">search</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!--  <section class="section2">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt expedita, omnis ex fugiat voluptatem illum consectetur quibusdam quas delectus deserunt iusto optio autem voluptas laudantium voluptates magnam, eos veritatis ut.</p>
+  </section> -->
+
+
+</body>
+</html>
+
+
