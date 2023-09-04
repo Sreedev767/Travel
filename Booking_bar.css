@@ -1,35 +1,31 @@
 .booking-bar{
-  position: relative;
-  top: 20%;
-  height:auto;
+  position: absolute;
+  top: 30%;
   width: 100%;
 }
 
 /* 1st row */
 .menu {
-  top: 10%;
-  height: auto;}
+  position: relative;
+  height: auto;
+  z-index: 1;
+}
 .bar1{
   border: none;
   border-radius: 7px;
   box-shadow: 0px 0px 4px 0.5px hwb(0 28% 72% / 0.702);
-  width: 60%;
+  width: 50%;
   background-image: linear-gradient(#063e479a,#063e4760);
 }
 .bar1 .row,.new{
   color: white;
 }
-
-
 .bar1 .menu1{
-  border-bottom: 5px solid rgba(255, 255, 255, 0);
-  border-width: 4px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0);
 }
 .bar1 .menu1:hover{
-  border-bottom: 5px solid white;
+  border-bottom: 3px solid white;
 }
-
-
 .rooms,.deals,.click_here{
   font-size: 13px;
   font-weight: bold;
@@ -37,29 +33,36 @@
 .new{
   border: none;
   border-radius: 50px;
-  font-family: 'Teko', sans-serif;
   letter-spacing: 2px;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 600;
   background-color: rgb(210, 5, 5);
 }
 
+
 /* 2nd row */
 .book{
-  top: 40%;
-  position:inherit;
+  bottom:8%;
+  position:relative;
   width: 100%;
 }
 .bar2{
   border: none;
   border-radius: 7px;
   box-shadow: 0px 0px 4px 0.5px #1e3932b3;
-  width: 90%;
+  width: 80%;
   height: auto;
   background-color: rgb(255, 255, 255);
 }
-.booking_1 .btn{
-  width: 10px;
+.booking_1{
+  width: 100%;
+  font-weight: bolder;
+}
+.booking_1 select{
+  border-radius: 7px;
+  border: 1px solid rgb(224, 224, 224);
+  max-width: 80%;
+  height: auto;
 }
 
 .booking .booking_1{
@@ -75,6 +78,9 @@
 .goa{
   font-size: 23px;
   font-weight: 900;
+}
+.booking_3{
+  font-size: 20px;
 }
 
 

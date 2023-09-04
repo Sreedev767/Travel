@@ -1,0 +1,14 @@
+.card-body{
+  text-align: center;
+}
+
+.card-body .card-title{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+}
+.card-body .card-text{
+  text-align: justify;
+  font-size: 12px;
+  font-weight: 900;
+}

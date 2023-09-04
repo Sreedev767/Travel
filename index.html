@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="./index.css" type="text/css">
   <link rel="stylesheet" href="./Navbar.css" type="text/css">
   <link rel="stylesheet" href="./Booking_bar.css" type="text/css">
+  <link rel="stylesheet" href="./popular_places.css" type="text/css">
 
   <!-- Fontawesome ------------------------------------------------------------------------------------------>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -25,21 +26,21 @@
   <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Bebas+Neue&family=Borel&family=Bungee+Spice&family=Encode+Sans+Semi+Expanded:wght@200&family=Handjet:wght@300&family=Lugrasimo&family=Poppins:wght@200&family=Teko:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
   <div class="section1">
-    <div class="section2a"></div>
     <div class="section1a">
       <!-- navbar -->
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
 
-           <!-- navbar brand ----------------------------------------------------------------------------------------------------->
+            <!-- navbar brand ----------------------------------------------------------------------------------------------------->
           <a class="navbar-brand ps-5" href="#">TrekTales</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">TrekTales</h5>
               <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
@@ -94,62 +95,66 @@
       </nav>
 
       <!-- booking bar ------------------------------------------------------------------------------------------->
-      <div class="booking-bar container">
+      <div class="booking-bar">
         
         <!-- booking bar - menu ---------------------------------------------------------------------------------->
-        <div class="menu container">
-          <div class="bar1 row mx-auto pt-1 pb-2 d-flex rounded-start-3 rounded-end-3">
-            <div class="menu1 col-lg-2 col-md-4 col-sm-6 mt-4 mx-auto ">
+        <div class="menu">
+          <div class="bar1 row mx-auto pt-1 pb-2 d-flex rounded-start-4 rounded-end-4">
+            <div class="menu1 col-lg-2 col-md-4 col-4 mt-4 mx-auto ">
               <i class="row pb-3 justify-content-center fa-solid fa-plane-departure fa-xl"></i>
               <span class="row justify-content-center mt-2">Flights</span>
             </div>
-            <div class="menu1 col-lg-2 col-md-4 col-sm-6 mt-4 mx-auto ">
+            <div class="menu1 col-lg-2 col-md-4 col-4 mt-4 mx-auto ">
               <i class="row pb-3 justify-content-center fa-solid fa-hotel fa-xl"></i>
               <span class="row justify-content-center mt-2">Hotels</span>
             </div>
-            <div class="menu1 col-lg-2 col-md-4 col-sm-6 mt-4 mx-auto">
+            <div class="menu1 col-lg-2 col-md-4 col-4 mt-4 mx-auto">
               <i class="row pb-3 justify-content-center fa-solid fa-bus fa-xl"></i>
               <span class="row justify-content-center mt-2">Buses</span>
             </div>
-            <div class="menu1 col-lg-2 col-md-4 col-sm-6 mt-4 mx-auto">
+            <div class="menu1 col-lg-2 col-md-4 col-4 mt-4 mx-auto">
               <i class="row pb-3 justify-content-center fa-solid fa-cab fa-xl"></i>
               <span class="row justify-content-center mt-2">Cabs</span>
             </div>
-            <div class="menu1 col-lg-2 col-md-4 col-sm-6 mt-4 mx-auto">
+            <div class="menu1 col-lg-2 col-md-4 col-4 mt-4 mx-auto">
               <i class="row pb-3 justify-content-center fa-solid fa-train fa-xl"></i>
               <span class="row justify-content-center mt-2">Trains</span>
             </div>
-            <div class="menu1 col-lg-2 col-md-4 col-sm-6 mt-4 mx-auto">
+            <div class="menu1 col-lg-2 col-md-4 col-4 mt-4 mx-auto">
               <i class="row pb-3 justify-content-center fa-solid fa-home  fa-xl"></i>
-              <span class="row justify-content-center mt-2">Private stays</span>
+              <span class="row justify-content-center mt-2">Private</span>
             </div>
           </div>
         </div>
-       
+        
         <!-- booking bar - book ---------------------------------------------------------------------------------->
-        <div class="book container d-flex">
+        <div class="book">
           <div class="bar2 row mx-auto pt-4 pb-2 ps-2 pe-3">
 
             <!-- 1st row -->
             <div class="row mt-1 me-2 mb-4 ">
-              <div class="col-lg-2 col-md-2 col-sm-4">
+              <div class="col-lg-2 col-md-2 col-6">
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                   <label class="rooms form-check-label" for="flexRadioDefault1">
-                   Upto 5 Rooms
+                    Upto 5 Rooms
                   </label>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-2 col-sm-4">
+              <div class="col-lg-3 col-md-2 col-6">
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                   <label class="deals me-2 form-check-label" for="flexRadioDefault1">
                     Group Deals
                   </label>
-                  <label class=" new ps-2 pe-2 ms-5">new</label>
                 </div>
               </div>
-              <div class="col-lg-7 col-md-8 col-sm-4">
+              <div class="col-lg-1 col-md-2 col-6">
+                <div>
+                  <label class=" new ps-2 pe-2">new</label>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-0">
                 <div class="click_here">
                   Book Domestic and International Property Online. To list your property. Click <a href="#" class="link-primary">Here</a>
                 </div>
@@ -158,7 +163,7 @@
 
             <!-- 2nd row -->
             <div class="booking row ms-1 me-1 ">
-              <div class="booking_1 col-lg-4 col-md-3 pb-2 pt-2 rounded-start-4">
+              <div class="booking_1 col-lg-4 col-md-3 col-12 pb-2 pt-2 rounded">
                 <div class="city row ms-2 mt-1">
                   <span>City, Property name or Location</span>
                 </div>
@@ -170,48 +175,63 @@
                 </div>
               </div>
 
-
-              <div class="booking_1 col-lg-2 col-md-3 pt-3">
+              <div class="booking_1 col-lg-2 col-md-3 col-12 pt-3 pb-3 rounded">
                 <span class="booking_2">Check - In</span>
-                <span><input type="datetime-local" class="date1 form-control"></span> 
+                <span><input type="datetime-local" class="date1 form-control mt-2"></span> 
               </div>
 
-
-
-              <div class="booking_1 col-lg-2 col-md-3 pt-3">
+              <div class="booking_1 col-lg-2 col-md-3 col-12 pt-3 pb-3 rounded">
                 <span class="booking_2">Check - Out</span>
-                <span><input type="datetime-local" class="date1 form-control"></span> 
+                <span><input type="datetime-local" class="date1 form-control mt-2"></span> 
               </div>
 
-              <div class="booking_1 col-lg-4 col-md-3  rounded-end-4">
-                <div class="btn-group ps-2 pb-2 pt-2">
-                  <button class="btn" type="button">
-                    <span class="booking_3">Price per night</span>
-                 </button>
-                  <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-                    <span class="visually-hidden">Toggle Dropdown</span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    ...
-                  </ul>
+              <div class="booking_1 col-lg-4 col-md-3 col-12 rounded">
+                <div class="row ps-2 pb-2 pt-2">
+
+                  <div class="col-6">
+                    <div class="row mb-3">
+                      <span class="text-center">Adults</span>
+                    </div>
+                    <div class="row">
+                      <select class="text-center mx-auto">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="row mb-3">
+                      <span class="text-center">Child</span>
+                    </div>
+                    <div class="row">
+                      <select class="text-center mx-auto">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                      </select>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </div>    
             </div>
 
             <!-- 3rd row -->
             <div class=" trending row mt-3 mb-3 ms-1">
               <div class="col-lg-2 col-md-12"></div>
-              <div class="col-lg-2 col-md-12 ">
+              <div class="col-lg-2 col-md-12 text-center">
                 <span class="trend">Trending Searches :</span>
               </div>
-              <div class="col-lg-2 col-md-12">
-                <span class="trend">London </span>
+              <div class="col-lg-2 col-md-12 text-center">
+                <span class="trend ">Roopkund Trek</span>
               </div>
-              <div class="col-lg-2 col-md-12">
-                <span class="trend ">Bangkok</span>
+              <div class="col-lg-2 col-md-12 text-center">
+                <span class="trend ">Kedarnath Trek</span>
               </div>
-              <div class="col-lg-2 col-md-12">
-                <span class="trend ">Singapore</span>
+              <div class="col-lg-2 col-md-12 text-center">
+                <span class="trend ">Dzukou Valley Trek</span>
               </div>
               <div class="col-lg-2 col-md-12"></div>
 
@@ -221,7 +241,7 @@
           </div> 
         </div>
         <!-- booking bar - search -------------------------------------------------------------------------------->
-        <div class="search container">
+        <div class="search">
           <div class="bar3 row row-lg-2 row-md-4 d-flex mx-auto mt-4">
             <a class="btn btn-success mx-auto pb-2 pt-2" href="#" role="button">GET ME BEST PRICES</a>
           </div>
@@ -229,10 +249,64 @@
       </div>
     </div>
   </div>
+  
+  <section class="section2">
+    <div class="container">
+      <!-- heading -->
+      <div class="heading">
+        <h1>Popular Treking Spots</h1>
+      </div>
 
- <!--  <section class="section2">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt expedita, omnis ex fugiat voluptatem illum consectetur quibusdam quas delectus deserunt iusto optio autem voluptas laudantium voluptates magnam, eos veritatis ut.</p>
-  </section> -->
+      <!-- places -->
+      <div class="places_delhi row mt-5 mb-5">
+
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-5">
+          <div class="card mx-auto" style="width: 16rem;">
+            <img src="./images/bg1.jpg" class="card-img-top" alt="jfks">
+            <div class="card-body">
+              <h5 class="card-title">Tawang Trek, Arunachal Pradesh</h5>
+              <p class="card-text">Known for its scenic beauty and Buddhist monasteries.</p>
+              <a href="#" class="btn btn-primary">BOOK NOW !</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-5">
+          <div class="card mx-auto" style="width: 16rem;">
+            <img src="./images/bg1.jpg" class="card-img-top" alt="jfks">
+            <div class="card-body">
+              <h5 class="card-title">Chadar Trek, Ladakh</h5>
+              <p class="card-text"> Trekking on the frozen Zanskar River is a unique and challenging experience.</p>
+              <a href="#" class="btn btn-primary">BOOK NOW !</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-5">
+          <div class="card mx-auto" style="width: 16rem;">
+            <img src="./images/bg1.jpg" class="card-img-top" alt="jfks">
+            <div class="card-body">
+              <h5 class="card-title">Kanchenjunga Base Camp Trek, Sikkim</h5>
+              <p class="card-text">Takes you to the base of the majestic Kanchenjunga.</p>
+              <a href="#" class="btn btn-primary">BOOK NOW !</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-5">
+          <div class="card mx-auto" style="width: 16rem;">
+            <img src="./images/bg1.jpg" class="card-img-top" alt="jfks">
+            <div class="card-body">
+              <h5 class="card-title">Hampta Pass Trek, Manali</h5>
+              <p class="card-text">This trek takes you through lush green valleys and offers a variety of landscapes.</p>
+              <a href="#" class="btn btn-primary">BOOK NOW !</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section> 
 
 </body>
 </html>
