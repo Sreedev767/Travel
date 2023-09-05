@@ -1,0 +1,25 @@
+
+.top-destinations{
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+  border-radius: 40px;
+  box-shadow: 0px 0px 100px 3px rgba(150, 150, 150, 0.756);
+  background-color: rgba(189, 189, 189, 0.152);
+}
+
+.top-destinations img{
+  margin-top: 40px;
+  border: 4px solid rgba(30, 111, 173, 0.084);
+  height: 9rem;
+  width: 9rem;
+}
+.top-destinations .place_name{
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 900;
+}
+.top-destinations .place_no,.acco{
+  font-weight: 900;
+  font-size: 10px;
+  margin-bottom: -2px;
+}

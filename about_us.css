@@ -1,0 +1,41 @@
+.about_us h2{
+  font-weight: 900 !important;
+}
+.about_us .abt p{
+  font-weight: 900 !important;
+  font-size: 16px;
+  color: rgba(3, 88, 153, 0.662);
+}
+#cap1{
+  font-size: 25px;
+  font-weight: 900;
+}
+.cap2{
+  font-size: 16px;
+  font-weight: 900;
+}
+#cap3{
+  font-size: 30px;
+  font-weight: 900;
+}
+#cap4{
+  font-size: 20px;
+  font-weight: 900;
+}
+#cap5{
+  font-size: 24px;
+  font-weight: 900;
+}
+.trek{
+  background-image: url('./images/bg4.png');
+}
+.trek p{
+  font-size: 100px;
+  font-weight: 900;
+  color:rgb(3,153,116);
+}
+.trek .Tales{
+  font-size: 100px;
+  font-weight: 900;
+  color:rgb(221, 218, 45);
+}
