@@ -4,7 +4,7 @@
   top: 5%;
   border:0px solid;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0);
 }
 .navbar-brand{
   font-weight: 900;
@@ -12,12 +12,33 @@
   color: white !important;
 }
 .nav-item{
+  text-align: center;
   margin: 0px 15px 0px 15px;
+}
+.nav-item :hover{
+  border-bottom: 2px solid white;
 }
 .navbar-nav a,.offcanvas-body form .btn{
   color: white !important;
 }
-.modal-title,.form-label,.form-check-label{
+.form-label,.form-check-label{
   color: black;
   font-weight: 900;
+}
+.modal-header{
+  background-color: rgb(3,88,153);
+  text-align: center;
+}
+.modal-title{
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+.modal-body .btn{
+  width: 100%;
+  background-color: rgb(3,88,153);
+}
+.modal-footer .btn{
+  font-weight: 900;
+  width: 100%;
 }

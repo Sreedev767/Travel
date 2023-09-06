@@ -19,6 +19,7 @@
 .places_delhi .card{
   box-shadow: 0px 0px 30px 1px rgba(150, 150, 150, 0.5);
   border: none;
+  margin: 50px;
 }
 .places_delhi .card-body .card-title{
   text-align: center;

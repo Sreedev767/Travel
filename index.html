@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="./Review.css" type="text/css">
   <link rel="stylesheet" href="./Top_Destinations.css" type="text/css">
   <link rel="stylesheet" href="./about_us.css" type="text/css">
+  <link rel="stylesheet" href="./footer.css" type="text/css">
+
 
   <link rel="icon" type="icon/x-image" href="./images/bg2.jpg" sizes="50x50">
 
@@ -41,7 +43,7 @@
         <div class="container-fluid">
 
             <!-- navbar brand ----------------------------------------------------------------------------------------------------->
-          <a class="navbar-brand ps-5" href="#">TrekTales</a>
+          <a class="navbar-brand ps-5" href="./index.html">TrekTales</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -52,9 +54,9 @@
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Top destinations</a></li>
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">About us</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#Popular">Popular</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#Home">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#About-Us">About us</a></li>
               </ul>
               <form class="d-flex" role="search">
                 <!-- Button trigger modal -->
@@ -67,12 +69,12 @@
                   <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Get along with us...</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <h1 class="modal-title ps-4" id="exampleModalLabel">Login to your Account</h1>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                      <div class="modal-body">
+                      <div class="modal-body ps-5 pe-5">
                         <form>
-                          <div class="mb-3">
+                          <div class="mb-3 mt-5">
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
@@ -85,12 +87,12 @@
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">Keep me logged in</label>
                           </div>
-                          <button type="submit" class="btn btn-success">Log in</button>
+                          <button type="submit" class="btn btn-primary mt-4 mb-3" data-bs-dismiss="modal">Log in</button>
                         </form>
                       </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                        <a class="btn btn-primary" href="#" role="button">Sign in</a>
+                      <div class="modal-footer mx-auto">
+                        <button type="button" class="btn btn-danger mt-2" data-bs-dismiss="modal">Close</button>
+                        <a class="btn btn-primary" href="#" role="button">Register</a>
                       </div>
                     </div>
                   </div>
@@ -226,10 +228,10 @@
             </div>
 
             <!-- 3rd row -->
-            <div class=" trending row mt-3 mb-3 ms-1">
+            <div class=" trending row mt-4 mb-3 ms-1">
               <div class="col-lg-2 col-md-12"></div>
               <div class="col-lg-2 col-md-12 text-center">
-                <span class="trend">Trending Searches :</span>
+                <span class="trend1">Trending Searches :</span>
               </div>
               <div class="col-lg-2 col-md-12 text-center">
                 <span class="trend ">Roopkund Trek</span>
@@ -259,7 +261,7 @@
   
 
   <!-- section 2 -->
-  <div class="section2">
+  <div class="section2" id="Home">
     <div class="container">
 
       <div class="section2a">
@@ -315,7 +317,7 @@
       </div>
 
       <!-- heading -->
-      <div class="heading pb-5 pt-5">
+      <div class="heading pb-5 pt-5" id="Popular">
         <span>Popular Treking Spots</span>
         <p>Discover These Popular Trekking Spots! From the majestic Himalayas to the lush Western Ghats, get ready to embark on unforgettable adventures, surrounded by breathtaking natural beauty.</p>
       </div>
@@ -324,8 +326,8 @@
       <div class="places_delhi row ">
 
         <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-5">
-          <div class="card mx-auto rounded-top-5 rounded-bottom-5" style="width: 16rem; height: 25rem;">
-            <img src="./images/place1.jpg" class="card-img-top rounded-top-5" alt="jfks" style="height: 10rem;">
+          <div class="card mx-auto rounded-top-4 rounded-bottom-4" style="width: 16rem; height: 25rem;">
+            <img src="./images/place1.jpg" class="card-img-top rounded-top-4" alt="jfks" style="height: 10rem;">
             <div class="card-body ">
               <h5 class="card-title mb-4">Tawang Trek , Arunachal Pradesh</h5>
               <p class="card-text">Bum La Pass is a high mountain pass near Tawang that connects India with Tibet (China).</p>
@@ -473,7 +475,7 @@
 
 
   <!-- section 3  -->
-  <div class="section3">
+  <div class="section3" id="About-Us">
     <div class="container pb-5 mb-5">
       <div class="about_us mt-5 text-center">
         <div  class="pt-5">
@@ -485,10 +487,10 @@
             <p>Discover a curated collection of the finest trekking destinations across the globe, from the rugged terrains of the Himalayas to the lush forests of the Western Ghats and beyond. TrekTales offers detailed guides, inspiring stories, and practical tips to help you plan your next journey into the wilderness.</p>
           </span>
         </div>
-        <div class="row mt-5 pt-5">
+        <div class="about_usa row mt-5 pt-5 pb-5 ">
           <div class="col-lg-6 col-md-12 col-12 ps-5 pe-5 ">
             <div class="trek">
-              <p class="cap1">Trek <p class="Tales">T</p>ales</p>
+              <p id="cap6">Trek Tales</p>
               <span id="cap3">157,000+</span>
               <p id="cap4">Hotels & Homes</p>
             </div>
@@ -520,7 +522,7 @@
       <div class="container">
   
         <!-- heading -->
-        <div class="heading pt-4">
+        <div class="heading pt-5 pb-5">
           <span>Overheard from Travellers !</span>
         </div>
   
@@ -568,32 +570,61 @@
     </div>
   </div>
 
-  <footer class="container">
-    <div>
-      <div class="row">
-        <div class="col-lg-2 col-md-6 col-12">
-          <span>TrekTales</span>
+  <footer>
+    <div class="container pt-5">
+      <div class="row  pb-4">
+        <div class="col-lg-3 col-md-6 col-12 text-center">
+          <span class="fot-head">TrekTales</span>
         </div>
-        <div class="col-lg-2 col-md-6 col-12">
-          <span class="caption">World's leading chain of hotels and homes</span>
+        <div class="col-lg-3 col-md-6 col-12 text-center">
         </div>
-        <div class="col-lg-2 col-md-6 col-12">
-          <span class="caption">Join our network and grow your business!</span>
+        <div class="col-lg-3 col-md-6 col-12 text-center pt-2">
+          <span class="caption">World's leading chain of hotels and homes .</span>
         </div>
-        <div class="col-lg-2 col-md-6 col-12">
-          <button type="button" class="btn">Secondary</button>
+        <div class="col-lg-3 col-md-6 col-12 text-center pt-2">
+          <span class="caption">Join our network and grow your business !</span>
         </div>
       </div>
       <hr>
-      <div class="row">
-        <div class="col-4"></div>
-        <div class="col-4"></div>
-        <div class="col-4"></div>
+      <div class="row pt-5 pb-5">
+
+        <div class="col-lg-3 col-md-12 col-12 text-center mb-5">
+          <div class="cont-a">
+            <div class="row mb-4"><span>Download Trek Tales app for exciting offers .</span></div>
+            <div class="row justify-content-center"><img src="./images/footer.png" alt="APP STORE / GOOGLE PLAY"></div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="cont-b">
+            <ul>
+              <h4>Support</h4>
+              <li>Get Help</li>
+              <li>Feedback</li>
+              <li>Contact Us</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+         <div class="cont-b">
+            <ul>
+              <h4>Quick Links</h4>
+              <li>T&Cs</li>
+              <li>FAQs</li>
+              <li>Careers</li>
+              <li>Disclaimer</li>
+            </ul>
+         </div>
+        </div>
+
+      </div>
+      <hr>
+      <div class="row text-center pt-3 pb-3">
+        <p>&#169;2023 TrekTales Company. All Rights Reserved.</p>
       </div>
     </div>
   </footer>
-
-
 </body>
 </html>
-

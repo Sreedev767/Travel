@@ -4,38 +4,76 @@
 .about_us .abt p{
   font-weight: 900 !important;
   font-size: 16px;
-  color: rgba(3, 88, 153, 0.662);
+  color: rgba(6, 94, 161, 0.941);
 }
 #cap1{
   font-size: 25px;
   font-weight: 900;
+  color: rgb(38, 102, 148);
+  transition: 1s;
+  text-align: center;
 }
 .cap2{
-  font-size: 16px;
+  font-size: 1px;
   font-weight: 900;
+  color: white;
+  transition: 1s;
+  text-align: center;
+
 }
 #cap3{
   font-size: 30px;
   font-weight: 900;
+  color: rgb(38, 102, 148);
+  text-align: center;
 }
 #cap4{
   font-size: 20px;
   font-weight: 900;
+  color: rgb(38, 102, 148);
+  text-align: center;
 }
 #cap5{
-  font-size: 24px;
+  font-size: 34px;
   font-weight: 900;
+  color: rgb(38, 102, 148);
+  transition: 1s;
+  text-align: center;
+}
+#cap6{
+  font-size: 80px;
+  font-weight: 900;
+  color: rgb(38, 102, 148);
+  border-radius:10px ;
+  transition: 1s;
+  text-align: center;
 }
 .trek{
   background-image: url('./images/bg4.png');
+  align-items: center;
 }
-.trek p{
-  font-size: 100px;
-  font-weight: 900;
-  color:rgb(3,153,116);
+.about_usa{
+  padding: 20px;
+  border-radius: 10px;
+  transition: 5s;
+
 }
-.trek .Tales{
+.about_usa:hover{
+  background-image: linear-gradient(rgb(19, 89, 143),rgba(3, 88, 153, 0));
+  cursor: pointer;
+}
+.about_usa:hover #cap1{
+  color: aliceblue;
+  font-size: 28px;
+}
+.about_usa:hover .cap2{
+  color: aliceblue;
+  font-size: 18px;
+}
+.about_usa:hover #cap6{
+  color: aliceblue;
   font-size: 100px;
-  font-weight: 900;
-  color:rgb(221, 218, 45);
+}
+.about_usa:hover #cap5{
+  font-size: 37px;
 }
