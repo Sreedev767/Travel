@@ -1,4 +1,4 @@
-*{
+  *{
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
@@ -18,10 +18,13 @@ body::-webkit-scrollbar-track{
 body::-webkit-scrollbar-thumb{
   background-color: rgb(3,88,153);
 }
+
+/* Section ---------------------------------------------------------------------------------- */
+
 .section1{
   position: relative;
   width:100%;
-  height:85vh;
+  height:100vh;
   background-image:url('./images/bg1.jpg');
   background-attachment: fixed;
   background-size:cover;
@@ -33,7 +36,7 @@ body::-webkit-scrollbar-thumb{
 }
 @media(min-width: 720px) and (max-width: 960px){
   .section1,.section1a{
-   height: 120vh;
+   height: 130vh;
  }
 }
 @media(min-width:540px) and (max-width: 720px) {
@@ -42,14 +45,14 @@ body::-webkit-scrollbar-thumb{
  }
 }
 @media(min-width:0px) and (max-width: 540px) {
-  .section1,.section1a,.section4,.section4a{
-   height: 180vh;
+  .section1,.section1a{
+   height: 185vh;
  }
 }
 .section1a{
   position: relative;
   width:100%;
-  height:85vh;
+  height:100vh;
   background-image: linear-gradient(rgb(9, 57, 94),rgba(3, 88, 153, 0));
 }
 .section2{
@@ -59,9 +62,36 @@ body::-webkit-scrollbar-thumb{
   text-align: center;
 }
 .section2a{
-  padding:10px 30px 0px 30px;
+  padding:10px 30px 10px 30px;
   border-radius: 10px;
 }
+.section2b{
+  width: 100%;
+  height: 15vh;
+}
+
+@media(min-width: 960px) and (max-width: 1440px){
+  .section2b{
+    height: 15vh;
+  }
+}
+@media(min-width: 720px) and (max-width: 960px){
+  .section2b{
+    height: 25vh;
+  }
+}
+@media(min-width:540px) and (max-width: 720px) {
+  .section2b{
+    height: 15vh;
+  }
+}
+@media(min-width:0px) and (max-width: 540px) {
+  .section2b{
+    height: 55vh;
+  }
+}
+
+
 .section4{
   position: relative;
   width: 100%;
@@ -77,16 +107,16 @@ body::-webkit-scrollbar-thumb{
 }
 @media(min-width: 540px) and (max-width: 1440px){
   .section4,.section4a{
-   height: 180vh;
+   height: 185vh;
  }
 }
 @media(min-width:0px) and (max-width: 540px) {
   .section4,.section4a{
-   height: 270vh;
+   height: 290vh;
  }
 }
 .section4a{
   background-image: linear-gradient(rgba(12, 83, 137, 0.329),rgba(3, 88, 153, 0));
   width:100%;
-  height:90vh;
+  height:95vh;
 }

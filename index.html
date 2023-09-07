@@ -14,9 +14,11 @@
   <link rel="stylesheet" href="./Top_Destinations.css" type="text/css">
   <link rel="stylesheet" href="./about_us.css" type="text/css">
   <link rel="stylesheet" href="./footer.css" type="text/css">
+  <link rel="stylesheet" href="./animations.css" type="text/css">
 
 
-  <link rel="icon" type="icon/x-image" href="./images/bg2.jpg" sizes="50x50">
+
+  <link rel="icon" type="icon/x-image" href="./images/icon.png" sizes="50x50">
 
 
   <!-- Fontawesome ------------------------------------------------------------------------------------------>
@@ -43,22 +45,22 @@
         <div class="container-fluid">
 
             <!-- navbar brand ----------------------------------------------------------------------------------------------------->
-          <a class="navbar-brand ps-5" href="./index.html">TrekTales</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <a class="navbar-brand " href="./index.html"><img src="./images/icon.png" alt="" style="height: 50px; width: 50px;">rekTales</a>
+          <button class="navbar-toggler  border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">TrekTales</h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <div class="offcanvas offcanvas-top h-auto text-bg-dark" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header text-white border-bottom">
+              <h5 class="offcanvas-title" id="offcanvasTopLabel"><img src="./images/icon.png" alt="" style="height: 34 px; width: 34px;">rekTales</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
+            <div class="offcanvas-body">             
               <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#Popular">Popular</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page"  href="#Popular">Popular</a></li>
                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="#Home">Home</a></li>
                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="#About-Us">About us</a></li>
               </ul>
-              <form class="d-flex" role="search">
+              <form class="d-flex justify-content-center" role="search">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                   Login / Register
@@ -103,6 +105,10 @@
         </div>
       </nav>
 
+      <div class="word">
+        
+      </div>
+    
       <!-- booking bar ------------------------------------------------------------------------------------------->
       <div class="booking-bar">
         
@@ -177,19 +183,19 @@
                   <span>City, Property name or Location</span>
                 </div>
                 <div class="goa row ms-3 mt-1 ">
-                  <span>GOA</span>
+                  <span>LEH</span>
                 </div>
                 <div class="india row ms-2 mt-1">
                   <span>india</span>
                 </div>
               </div>
 
-              <div class="booking_1 col-lg-2 col-md-3 col-12 pt-3 pb-3 rounded">
+              <div class="booking_1 col-lg-2 col-md-3 col-12 pt-3 pb-3 rounded text-center">
                 <span class="booking_2">Check - In</span>
                 <span><input type="datetime-local" class="date1 form-control mt-2"></span> 
               </div>
 
-              <div class="booking_1 col-lg-2 col-md-3 col-12 pt-3 pb-3 rounded">
+              <div class="booking_1 col-lg-2 col-md-3 col-12 pt-3 pb-3 rounded text-center">
                 <span class="booking_2">Check - Out</span>
                 <span><input type="datetime-local" class="date1 form-control mt-2"></span> 
               </div>
@@ -230,16 +236,16 @@
             <!-- 3rd row -->
             <div class=" trending row mt-4 mb-3 ms-1">
               <div class="col-lg-2 col-md-12"></div>
-              <div class="col-lg-2 col-md-12 text-center">
+              <div class="col-lg-2 col-md-12 text-center mb-2 ">
                 <span class="trend1">Trending Searches :</span>
               </div>
-              <div class="col-lg-2 col-md-12 text-center">
+              <div class="col-lg-2 col-md-12 text-center mb-2 ">
                 <span class="trend ">Roopkund Trek</span>
               </div>
-              <div class="col-lg-2 col-md-12 text-center">
+              <div class="col-lg-2 col-md-12 text-center mb-2 ">
                 <span class="trend ">Kedarnath Trek</span>
               </div>
-              <div class="col-lg-2 col-md-12 text-center">
+              <div class="col-lg-2 col-md-12 text-center mb-1 ">
                 <span class="trend ">Dzukou Valley Trek</span>
               </div>
               <div class="col-lg-2 col-md-12"></div>
@@ -259,55 +265,62 @@
     </div>
   </div>
   
-
+  <div class="section2b" id="Home">
+    <div class="container text-center row mx-auto">
+      <div class="travel row pt-5 mx-auto">
+        <h2>Travel With Us</h2>
+        <h2>Travel With Us</h2>
+      </div>
+    </div>
+  </div>
   <!-- section 2 -->
-  <div class="section2" id="Home">
+  <div class="section2">
     <div class="container">
 
       <div class="section2a">
         <!-- heading -->
-        <div class="heading mt-5">
+        <div class="heading mt-5 pb-3">
           <span>Top destinations</span>
           <p> Explore the World's Top Destinations ! Discover the most sought-after places on Earth, each offering its own unique charm, culture, and experiences for travelers seeking the extraordinary.</p>
         </div>
   
         <div class="top-destinations row mt-5 mx-auto">
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 text-center">
+          <div class=" top-a col-lg-2 col-md-4 col-sm-6 col-12 text-center">
             <img class="rounded-circle" src="./images/top1.jpeg" alt="" >
             <p class="place_name">Triund Trek</p>
             <p class="place_no">1,574</p>
             <P class="acco">Accommodations</P>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 text-center">
+          <div class=" top-a col-lg-2 col-md-4 col-sm-6 col-12 text-center">
             <img class="rounded-circle" src="./images/top2.jpg" alt="" >
             <p class="place_name">Great Lakes</p>
             <p class="place_no">1,234</p>
             <P class="acco">Accommodations</P>
           </div>          
           
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 text-center">
+          <div class=" top-a col-lg-2 col-md-4 col-sm-6 col-12 text-center">
             <img class="rounded-circle" src="./images/top3.jpg" alt="" >
             <p class="place_name">Rajmachi Trek</p>
             <p class="place_no">1,256</p>
             <P class="acco">Accommodations</P>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 text-center">
+          <div class=" top-a col-lg-2 col-md-4 col-sm-6 col-12 text-center">
             <img class="rounded-circle" src="./images/top4.jpg" alt="" >
             <p class="place_name">Dzukou Valley</p>
             <p class="place_no">1,153</p>
             <P class="acco">Accommodations</P>
           </div>
           
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 text-center">
+          <div class=" top-a col-lg-2 col-md-4 col-sm-6 col-12 text-center">
             <img class="rounded-circle" src="./images/top5.avif" alt="" >
             <p class="place_name">Goecha La Trek</p>
             <p class="place_no">1,232</p>
             <P class="acco">Accommodations</P>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-sm-6 col-12 text-center">
+          <div class=" top-a col-lg-2 col-md-4 col-sm-6 col-12 text-center">
             <img class="rounded-circle" src="./images/top6.jpeg" alt="" >
             <p class="place_name">Valley of Flowers</p>
             <p class="place_no">1,334</p>
@@ -326,149 +339,321 @@
       <div class="places_delhi row ">
 
         <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-5">
-          <div class="card mx-auto rounded-top-4 rounded-bottom-4" style="width: 16rem; height: 25rem;">
-            <img src="./images/place1.jpg" class="card-img-top rounded-top-4" alt="jfks" style="height: 10rem;">
-            <div class="card-body ">
-              <h5 class="card-title mb-4">Tawang Trek , Arunachal Pradesh</h5>
-              <p class="card-text">Bum La Pass is a high mountain pass near Tawang that connects India with Tibet (China).</p>
-              <p class="card-text text-center">
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-regular fa-star" style="color: #ece80b;"></i>
-              </p>
-              <a href="#" class="btn btn-primary">BOOK NOW !</a>
+          <div class="card mx-auto rounded-top-4 rounded-bottom-4 flip-card" style="width: 16rem; height: 25rem;">
+            <div class="flip-card-inner">
+
+              <div class="flip-card-front">
+                <img src="./images/place1.jpg" class="card-img-top rounded-top-4" alt="jfks" style="height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Tawang Trek, Arunachal Pradesh</h5>
+                  <p class="card-text">Bum La Pass is a high mountain pass near Tawang that connects India with Tibet (China).</p>
+                  <p class="card-text text-center">
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-regular fa-star" style="color: #ece80b;"></i>
+                  </p>
+                  <a href="#" class="btn btn-primary">BOOK NOW!</a>
+                </div>
+              </div>
+
+              <div class="flip-card-back">
+                 <img src="./images/place1.jpg" class="card-img-top rounded-top-4" alt="jfks" style="height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Tawang Trek, Arunachal Pradesh</h5>
+                  <p class="card-text">Bum La Pass is a high mountain pass near Tawang that connects India with Tibet (China).</p>
+                  <p class="card-text text-center">
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-regular fa-star" style="color: #ece80b;"></i>
+                  </p>
+                  <a href="#" class="btn btn-primary">BOOK NOW!</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
         <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-5">
-          <div class="card mx-auto rounded-top-5 rounded-bottom-5" style="width: 16rem; height: 25rem;">
-            <img src="./images/place2.jpg" class="card-img-top rounded-top-5" alt="jfks" style="height: 10rem;">
-            <div class="card-body">
-              <h5 class="card-title mb-4">Kedarnath Trek, Uttarakhand</h5>
-              <p class="card-text">Doli and pony services are also available for those who prefer not to trek the entire way.</p>
-              <p class="card-text text-center">
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-              </p>
-              <a href="#" class="btn btn-primary">BOOK NOW !</a>
-            </div>
-          </div>
-        </div>
+          <div class="card mx-auto rounded-top-4 rounded-bottom-4 flip-card" style="width: 16rem; height: 25rem;">
+            <div class="flip-card-inner">
 
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-5">
-          <div class="card mx-auto rounded-top-5 rounded-bottom-5" style="width: 16rem; height: 25rem;">
-            <img src="./images/place3.jpg" class="card-img-top rounded-top-5 " alt="jfks" style="height: 10rem;">
-            <div class="card-body">
-              <h5 class="card-title mb-4">Kanchenjunga Trek , Sikkim</h5>
-              <p class="card-text">The trek starts from various points in Sikkim, with the most common starting point being Yuksom.</p>
-              <p class="card-text text-center">
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-regular fa-star" style="color: #ece80b;"></i>
-              </p>
-              <a href="#" class="btn btn-primary ">BOOK NOW !</a>
-            </div>
-          </div>
-        </div>
+              <div class="flip-card-front">
+                  <img src="./images/place2.jpg" class="card-img-top rounded-top-4" alt="jfks" style="height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Kedarnath Trek, Uttarakhand</h5>
+                  <p class="card-text">Doli and pony services are also available for those who prefer not to trek the entire way.</p>
+                  <p class="card-text text-center">
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                  </p>
+                  <a href="#" class="btn btn-primary">BOOK NOW !</a>
+                </div>
+              </div>
 
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-5">
-          <div class="card mx-auto rounded-top-5 rounded-bottom-5" style="width: 16rem; height: 25rem;">
-            <img src="./images/place4.jpeg" class="card-img-top rounded-top-5 " alt="jfks" style="height: 10rem;">
-            <div class="card-body">
-              <h5 class="card-title mb-4">Hampta Pass Trek , Manali</h5>
-              <p class="card-text">The trek starts from Manali, a well-known hill station in Himachal Pradesh.</p>
-              <p class="card-text text-center">
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-regular fa-star" style="color: #ece80b;"></i>
-              </p>
-              <a href="#" class="btn btn-primary">BOOK NOW !</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-5">
-          <div class="card mx-auto rounded-top-5 rounded-bottom-5" style="width: 16rem; height: 25rem;">
-            <img src="./images/place5.jpg" class="card-img-top rounded-top-5 " alt="jfks" style="height: 10rem;">
-            <div class="card-body">
-              <h5 class="card-title mb-4">Triund Trek , Himachal Pradesh</h5>
-              <p class="card-text">Offers spectacular views of Kanchenjunga, the world's third-highest peak.</p>
-              <p class="card-text text-center">
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-regular fa-star" style="color: #ece80b;"></i>
-              </p>
-              <a href="#" class="btn btn-primary">BOOK NOW !</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-5">
-          <div class="card mx-auto rounded-top-5 rounded-bottom-5" style="width: 16rem; height: 25rem;">
-            <img src="./images/place6.webp" class="card-img-top rounded-top-5 " alt="jfks" style="height: 10rem;">
-            <div class="card-body">
-              <h5 class="card-title mb-4">Western Ghats , Karnataka</h5>
-              <p class="card-text">Explore the lush forests and hill stations in places like Coorg, Chikmagalur, and Munnar.</p>
-              <p class="card-text text-center">
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-regular fa-star" style="color: #ece80b;"></i>
-              </p>
-              <a href="#" class="btn btn-primary">BOOK NOW !</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xl-3 col-lg-6 col-md-6 col-12 mb-5">
-          <div class="card mx-auto rounded-top-5 rounded-bottom-5" style="width: 16rem; height: 25rem;">
-            <img src="./images/place7.jpeg" class="card-img-top rounded-top-5 " alt="jfks" style="height: 10rem;">
-            <div class="card-body">
-              <h5 class="card-title mb-4">Roopkund Trek, Uttarakhand</h5>
-              <p class="card-text">Famous for its mysterious lake filled with skeletal remains, this trek offers breathtaking views.</p>
-              <p class="card-text text-center">
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-regular fa-star" style="color: #ece80b;"></i>
-              </p>
-              <a href="#" class="btn btn-primary">BOOK NOW !</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xl-3 col-lg-6 col-md-6 col-12 mb-5">
-          <div class="card mx-auto rounded-top-5 rounded-bottom-5" style="width: 16rem; height: 25rem;">
-            <img src="./images/place8.jpg" class="card-img-top rounded-top-5 " alt="jfks" style="height: 10rem;">
-            <div class="card-body">
-              <h5 class="card-title mb-4">Tarsar Marsar Trek , Kashmir</h5>
-              <p class="card-text">A lesser-known gem with beautiful lakes surrounded by lush meadows , located in Kashmir.</p>
-              <p class="card-text text-center">
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-solid fa-star" style="color: #ece80b;"></i>
-                <i class="fa-regular fa-star" style="color: #ece80b;"></i>
-              </p>
-              <a href="#" class="btn btn-primary">BOOK NOW !</a>
+              <div class="flip-card-back">
+                <img src="./images/place2.jpg" class="card-img-top rounded-top-4" alt="jfks" style="height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Kedarnath Trek, Uttarakhand</h5>
+                  <p class="card-text">Doli and pony services are also available for those who prefer not to trek the entire way.</p>
+                  <p class="card-text text-center">
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                  </p>
+                  <a href="#" class="btn btn-primary">BOOK NOW !</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         
+
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-5">
+          <div class="card mx-auto rounded-top-4 rounded-bottom-4 flip-card" style="width: 16rem; height: 25rem;">
+            <div class="flip-card-inner">
+
+              <div class="flip-card-front">
+                <img src="./images/place3.jpg" class="card-img-top rounded-top-4 " alt="jfks" style="height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Kanchenjunga Trek , Sikkim</h5>
+                  <p class="card-text">The trek starts from various points in Sikkim, with the most common starting point being Yuksom.</p>
+                  <p class="card-text text-center">
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-regular fa-star" style="color: #ece80b;"></i>
+                  </p>
+                  <a href="#" class="btn btn-primary ">BOOK NOW !</a>
+                </div>
+              </div>
+
+              <div class="flip-card-back">
+                <img src="./images/place3.jpg" class="card-img-top rounded-top-4 " alt="jfks" style="height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Kanchenjunga Trek , Sikkim</h5>
+                  <p class="card-text">The trek starts from various points in Sikkim, with the most common starting point being Yuksom.</p>
+                  <p class="card-text text-center">
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-regular fa-star" style="color: #ece80b;"></i>
+                  </p>
+                  <a href="#" class="btn btn-primary ">BOOK NOW !</a>
+                </div>              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-5">
+          <div class="card mx-auto rounded-top-4 rounded-bottom-4 flip-card" style="width: 16rem; height: 25rem;">
+            <div class="flip-card-inner">
+
+              <div class="flip-card-front">
+                <img src="./images/place4.jpeg" class="card-img-top rounded-top-4 " alt="jfks" style="height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Hampta Pass Trek , Manali</h5>
+                  <p class="card-text">The trek starts from Manali, a well-known hill station in Himachal Pradesh.</p>
+                  <p class="card-text text-center">
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-regular fa-star" style="color: #ece80b;"></i>
+                  </p>
+                  <a href="#" class="btn btn-primary">BOOK NOW !</a>
+                </div>
+              </div>
+
+              <div class="flip-card-back">
+                <img src="./images/place4.jpeg" class="card-img-top rounded-top-4 " alt="jfks" style="height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Hampta Pass Trek , Manali</h5>
+                  <p class="card-text">The trek starts from Manali, a well-known hill station in Himachal Pradesh.</p>
+                  <p class="card-text text-center">
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-regular fa-star" style="color: #ece80b;"></i>
+                  </p>
+                  <a href="#" class="btn btn-primary">BOOK NOW !</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-5">
+          <div class="card mx-auto rounded-top-4 rounded-bottom-4 flip-card" style="width: 16rem; height: 25rem;">
+            <div class="flip-card-inner">
+
+              <div class="flip-card-front">
+                <img src="./images/place5.jpg" class="card-img-top rounded-top-4 " alt="jfks" style="height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Triund Trek , Himachal Pradesh</h5>
+                  <p class="card-text">Offers spectacular views of Kanchenjunga, the world's third-highest peak.</p>
+                  <p class="card-text text-center">
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-regular fa-star" style="color: #ece80b;"></i>
+                  </p>
+                  <a href="#" class="btn btn-primary">BOOK NOW !</a>
+                </div>
+              </div>
+
+              <div class="flip-card-back">
+                <img src="./images/place5.jpg" class="card-img-top rounded-top-4 " alt="jfks" style="height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Triund Trek , Himachal Pradesh</h5>
+                  <p class="card-text">Offers spectacular views of Kanchenjunga, the world's third-highest peak.</p>
+                  <p class="card-text text-center">
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-regular fa-star" style="color: #ece80b;"></i>
+                  </p>
+                  <a href="#" class="btn btn-primary">BOOK NOW !</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="col-xl-3 col-lg-4 col-md-6 col-12 mb-5">
+          <div class="card mx-auto rounded-top-4 rounded-bottom-4 flip-card" style="width: 16rem; height: 25rem;">
+            <div class="flip-card-inner">
+
+              <div class="flip-card-front">
+                <img src="./images/place6.webp" class="card-img-top rounded-top-4 " alt="jfks" style="height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Western Ghats , Karnataka</h5>
+                  <p class="card-text">Explore the lush forests and hill stations in places like Coorg, Chikmagalur, and Munnar.</p>
+                  <p class="card-text text-center">
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-regular fa-star" style="color: #ece80b;"></i>
+                  </p>
+                  <a href="#" class="btn btn-primary">BOOK NOW !</a>
+                </div>
+              </div>
+
+              <div class="flip-card-back">
+                <img src="./images/place6.webp" class="card-img-top rounded-top-4 " alt="jfks" style="height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Western Ghats , Karnataka</h5>
+                  <p class="card-text">Explore the lush forests and hill stations in places like Coorg, Chikmagalur, and Munnar.</p>
+                  <p class="card-text text-center">
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-regular fa-star" style="color: #ece80b;"></i>
+                  </p>
+                  <a href="#" class="btn btn-primary">BOOK NOW !</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="col-xl-3 col-lg-6 col-md-6 col-12 mb-5">
+          <div class="card mx-auto rounded-top-4 rounded-bottom-4 flip-card" style="width: 16rem; height: 25rem;">
+            <div class="flip-card-inner">
+
+              <div class="flip-card-front">
+                <img src="./images/place7.jpeg" class="card-img-top rounded-top-4 " alt="jfks" style="height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Roopkund Trek, Uttarakhand</h5>
+                  <p class="card-text">Famous for its mysterious lake filled with skeletal remains, this trek offers breathtaking views.</p>
+                  <p class="card-text text-center">
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-regular fa-star" style="color: #ece80b;"></i>
+                  </p>
+                  <a href="#" class="btn btn-primary">BOOK NOW !</a>
+                </div>
+              </div>
+
+              <div class="flip-card-back">
+                <img src="./images/place7.jpeg" class="card-img-top rounded-top-4 " alt="jfks" style="height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Roopkund Trek, Uttarakhand</h5>
+                  <p class="card-text">Famous for its mysterious lake filled with skeletal remains, this trek offers breathtaking views.</p>
+                  <p class="card-text text-center">
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-regular fa-star" style="color: #ece80b;"></i>
+                  </p>
+                  <a href="#" class="btn btn-primary">BOOK NOW !</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="col-xl-3 col-lg-6 col-md-6 col-12 mb-5">
+          <div class="card mx-auto rounded-top-4 rounded-bottom-4 flip-card" style="width: 16rem; height: 25rem;">
+            <div class="flip-card-inner">
+
+              <div class="flip-card-front">
+                <img src="./images/place8.jpg" class="card-img-top rounded-top-4 " alt="jfks" style="height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Tarsar Marsar Trek , Kashmir</h5>
+                  <p class="card-text">A lesser-known gem with beautiful lakes surrounded by lush meadows , located in Kashmir.</p>
+                  <p class="card-text text-center">
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-regular fa-star" style="color: #ece80b;"></i>
+                  </p>
+                  <a href="#" class="btn btn-primary">BOOK NOW !</a>
+                </div>
+              </div>
+
+              <div class="flip-card-back">
+                <img src="./images/place8.jpg" class="card-img-top rounded-top-4 " alt="jfks" style="height: 10rem;">
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Tarsar Marsar Trek , Kashmir</h5>
+                  <p class="card-text">A lesser-known gem with beautiful lakes surrounded by lush meadows , located in Kashmir.</p>
+                  <p class="card-text text-center">
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-solid fa-star" style="color: #ece80b;"></i>
+                    <i class="fa-regular fa-star" style="color: #ece80b;"></i>
+                  </p>
+                  <a href="#" class="btn btn-primary">BOOK NOW !</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div> 
@@ -534,7 +719,7 @@
               <div class="card-body">
                 <h5 class="card-title mt-3">Hampta Pass Trek</h5>
                 <h6 class="card-subtitle mb-2 mt-2">in Manali</h6>
-                <p class="card-text mt-4 mb-5">"This diversity in terrain is one of the unique aspects of the trek. The trek also offers opportunities to interact with the local communities in the Kullu and Lahaul valleys, gaining insights into their way of life."</p>
+                <p class="card-text mt-4 mb-5">"This diversity in terrain is one of the unique aspects of the trek. Also offers opportunities to interact with the local communities in the Kullu and Lahaul valleys, gaining insights into their way of life."</p>
                 <img class="rounded-circle" src="./images/person1.jpg" alt="Andy">
                 <p class="card-text mt-4">- Andy from Singapore</p>
               </div>
@@ -574,7 +759,7 @@
     <div class="container pt-5">
       <div class="row  pb-4">
         <div class="col-lg-3 col-md-6 col-12 text-center">
-          <span class="fot-head">TrekTales</span>
+          <span class="fot-head"><img src="./images/icon.png" alt="" style="height: 80px; width: 80px;">rekTales</span>
         </div>
         <div class="col-lg-3 col-md-6 col-12 text-center">
         </div>
@@ -586,17 +771,20 @@
         </div>
       </div>
       <hr>
-      <div class="row pt-5 pb-5">
+      <div class="row pt-2 pb-1">
 
-        <div class="col-lg-3 col-md-12 col-12 text-center mb-5">
+        <div class="col-lg-3 col-md-12 col-12 text-center mb-1">
           <div class="cont-a">
-            <div class="row mb-4"><span>Download Trek Tales app for exciting offers .</span></div>
+            <div class="row mb-2"><span>Download Trek Tales app for exciting offers .</span></div>
             <div class="row justify-content-center"><img src="./images/footer.png" alt="APP STORE / GOOGLE PLAY"></div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-12">
-          <div class="cont-b">
+        <div class="col-lg-3 col-md-6 col-12">
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-12">
+          <div class="cont-b mt-4">
             <ul>
               <h4>Support</h4>
               <li>Get Help</li>
@@ -607,8 +795,8 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-12">
-         <div class="cont-b">
+        <div class="col-lg-2 col-md-6 col-12">
+         <div class="cont-b mt-4">
             <ul>
               <h4>Quick Links</h4>
               <li>T&Cs</li>

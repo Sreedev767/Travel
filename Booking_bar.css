@@ -22,9 +22,16 @@
 }
 .bar1 .menu1{
   border-bottom: 3px solid rgba(255, 255, 255, 0);
+  transition: 0.1s;
 }
 .bar1 .menu1:hover{
   border-bottom: 3px solid white;
+  cursor: pointer;
+}
+.bar1 .menu1:active{
+  font-size: 12px;
+  border-bottom: 1px solid white;
+
 }
 .rooms,.deals,.click_here{
   font-size: 13px;
@@ -105,4 +112,8 @@
   background-color: rgba(204, 204, 204, 0.234);
   padding: 5px;
   border-radius: 5px;
+}
+.trending .trend:hover{
+  background-color: rgba(204, 204, 204, 0.378);
+  cursor: pointer;
 }

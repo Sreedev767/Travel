@@ -3,31 +3,31 @@ footer{
   color: white;
 }
 .fot-head{
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 900;
 }
 .caption{
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 900;
 }
 .cont-a span{
-  font-size: 20px;
+  font-size:14px;
   font-weight: 900;
 }
 .cont-a img{
   height: 140px;
-  width: 370px;
+  width: 400px;
 }
 @media(min-width: 1440px) and (max-width: 2560px){
   .cont-a img{
     height: 140px;
-    width: 370px;
+    width: 390px;
   }
 }
 @media(min-width: 540px) and (max-width: 1440px){
   .cont-a img{
     height: 140px;
-    width: 370px;
+    width: 390px;
   }
 }
 @media(min-width:0px) and (max-width: 540px) {
@@ -42,22 +42,22 @@ footer{
 .cont-b li{
   list-style: none;
   letter-spacing: 1px;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 900;
   transition: 0.5s;
 }
 .cont-b li:hover{
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18px;
 }
 .cont-b li:active {
   color: rgb(136, 75, 0);
   cursor: pointer;
-  font-size: 17px;
+  font-size: 15px;
 }
 .cont-b h4{
   list-style: none;
   letter-spacing: 1px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 900;
 }
